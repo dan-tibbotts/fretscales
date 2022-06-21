@@ -1,0 +1,779 @@
+
+/* Open Fret  */
+.open .string-1 .note {
+    visibility: visible;
+    background-color: var(--fifth-note);
+}
+
+.open .string-1 .note::before {
+    content: "E";
+}
+
+
+.open .string-2 .note {
+    visibility: visible;
+}
+
+.open .string-2 .note::before {
+    content: "B";
+}
+
+
+.open .string-3 .note {
+    visibility: hidden;
+}
+
+.open .string-3 .note::before {
+    content: "G";
+}
+
+.open .string-4 .note {
+    visibility: visible;
+}
+
+.open .string-4 .note::before {
+    content: "D";
+}
+
+
+.open .string-5 .note {
+    visibility: visible;
+    background-color: var(--root-note);
+}
+
+.open .string-5 .note::before {
+    content: "A";
+}
+
+
+.open .string-6 .note {
+    visibility: visible;
+    background-color: var(--fifth-note);
+}
+
+.open .string-6 .note::before {
+    content: "E";
+}
+
+
+
+
+
+
+
+/* Fret 1 */
+.fret-1 .string-1 .note {
+    visibility: hidden;
+}
+
+.fret-1 .string-1 .note::before {
+    content: "F"
+}
+
+
+.fret-1 .string-2 .note {
+    visibility: hidden;
+}
+
+.fret-1 .string-2 .note::before {
+    content: "C"
+}
+
+.fret-1 .string-3 .note {
+    visibility: visible;
+}
+
+.fret-1 .string-3 .note::before {
+    content: "G#"
+}
+
+.fret-1 .string-4 .note {
+    visibility: hidden;
+}
+
+.fret-1 .string-4 .note::before {
+    content: "D#"
+}
+
+.fret-1 .string-5 .note {
+    visibility: hidden;
+}
+
+.fret-1 .string-5 .note::before {
+    content: "A#"
+}
+
+.fret-1 .string-6 .note {
+    visibility: hidden;
+}
+
+.fret-1 .string-6 .note::before {
+    content: "F"
+}
+
+
+
+
+
+
+/* Fret 2 */
+.fret-2 .string-1 .note {
+    visibility: visible;
+}
+
+.fret-2 .string-1 .note::before {
+    content: "F#"
+}
+
+
+.fret-2 .string-2 .note {
+    visibility: visible;
+    background-color: var(--third-note);
+}
+
+.fret-2 .string-2 .note::before {
+    content: "C#"
+}
+
+
+.fret-2 .string-3 .note {
+    visibility: visible;
+    background-color: var(--root-note);
+}
+
+.fret-2 .string-3 .note::before {
+    content: "A"
+}
+
+
+.fret-2 .string-4 .note {
+    visibility: visible;
+    background-color: var(--fifth-note);
+}
+
+.fret-2 .string-4 .note::before {
+    content: "E"
+}
+
+
+.fret-2 .string-5 .note {
+    visibility: visible;
+}
+
+.fret-2 .string-5 .note::before {
+    content: "B"
+}
+
+
+.fret-2 .string-6 .note {
+    visibility: visible;
+}
+
+.fret-2 .string-6 .note::before {
+    content: "F#"
+}
+
+
+
+
+
+
+/* Fret 3 */
+.fret-3 .string-1 .note {
+    visibility: hidden;
+}
+
+.fret-3 .string-1 .note::before {
+    content: "G"
+}
+
+
+.fret-3 .string-2 .note {
+    visibility: visible;
+}
+
+.fret-3 .string-2 .note::before {
+    content: "D"
+}
+
+
+.fret-3 .string-3 .note {
+    visibility: hidden;
+}
+
+.fret-3 .string-3 .note::before {
+    content: "A#"
+}
+
+
+.fret-3 .string-4 .note {
+    visibility: hidden;
+}
+
+.fret-3 .string-4 .note::before {
+    content: "F"
+}
+
+
+.fret-3 .string-5 .note {
+    visibility: hidden;
+}
+
+.fret-3 .string-5 .note::before {
+    content: "C"
+}
+
+
+.fret-3 .string-6 .note {
+    visibility: hidden;
+}
+
+.fret-3 .string-6 .note::before {
+    content: "G"
+}
+
+
+
+
+
+
+/* Fret 4 */
+.fret-4 .string-1 .note {
+    visibility: visible;
+}
+
+.fret-4 .string-1 .note::before {
+    content: "G#"
+}
+
+
+.fret-4 .string-2 .note {
+    visibility: hidden;
+}
+
+.fret-4 .string-2 .note::before {
+    content: "D#"
+}
+
+
+.fret-4 .string-3 .note {
+    visibility: visible;
+}
+
+.fret-4 .string-3 .note::before {
+    content: "B"
+}
+
+
+.fret-4 .string-4 .note {
+    visibility: visible;
+}
+
+.fret-4 .string-4 .note::before {
+    content: "F#"
+}
+
+
+.fret-4 .string-5 .note {
+    visibility: visible;
+    background-color: var(--third-note);
+}
+
+.fret-4 .string-5 .note::before {
+    content: "C#"
+}
+
+
+.fret-4 .string-6 .note {
+    visibility: visible;
+}
+
+.fret-4 .string-6 .note::before {
+    content: "G#"
+}
+
+
+
+
+
+
+/* Fret 5 */
+.fret-5 .string-1 .note {
+    visibility: visible;
+    background-color: var(--root-note);
+}
+
+.fret-5 .string-1 .note::before {
+    content: "A"
+}
+
+
+.fret-5 .string-2 .note {
+    visibility: visible;
+    background-color: var(--fifth-note);
+}
+
+.fret-5 .string-2 .note::before {
+    content: "E"
+}
+
+
+.fret-5 .string-3 .note {
+    visibility: hidden;
+}
+
+.fret-5 .string-3 .note::before {
+    content: "C"
+}
+
+
+.fret-5 .string-4 .note {
+    visibility: hidden;
+}
+
+.fret-5 .string-4 .note::before {
+    content: "G"
+}
+
+
+.fret-5 .string-5 .note {
+    visibility: visible;
+}
+
+.fret-5 .string-5 .note::before {
+    content: "D"
+}
+
+
+.fret-5 .string-6 .note {
+    visibility: visible;
+    background-color: var(--root-note);
+}
+
+.fret-5 .string-6 .note::before {
+    content: "A"
+}
+
+
+
+
+
+
+/* Fret 6 */
+.fret-6 .string-1 .note {
+    visibility: hidden;
+}
+
+.fret-6 .string-1 .note::before {
+    content: "A#"
+}
+
+
+.fret-6 .string-2 .note {
+    visibility: hidden;
+}
+
+.fret-6 .string-2 .note::before {
+    content: "F"
+}
+
+
+.fret-6 .string-3 .note {
+    visibility: visible;
+    background-color: var(--third-note);
+}
+
+.fret-6 .string-3 .note::before {
+    content: "C#"
+}
+
+
+.fret-6 .string-4 .note {
+    visibility: visible;
+}
+
+.fret-6 .string-4 .note::before {
+    content: "G#"
+}
+
+
+.fret-6 .string-5 .note {
+    visibility: hidden;
+}
+
+.fret-6 .string-5 .note::before {
+    content: "D#"
+}
+
+
+.fret-6 .string-6 .note {
+    visibility: hidden;
+}
+
+.fret-6 .string-6 .note::before {
+    content: "A#"
+}
+
+
+
+
+
+
+/* Fret 7 */
+.fret-7 .string-1 .note {
+    visibility: visible;
+}
+
+.fret-7 .string-1 .note::before {
+    content: "B"
+}
+
+
+.fret-7 .string-2 .note {
+    visibility: visible;
+}
+
+.fret-7 .string-2 .note::before {
+    content: "F#"
+}
+
+
+.fret-7 .string-3 .note {
+    visibility: visible;
+}
+
+.fret-7 .string-3 .note::before {
+    content: "D"
+}
+
+
+.fret-7 .string-4 .note {
+    visibility: visible;
+    background-color: var(--root-note);
+}
+
+.fret-7 .string-4 .note::before {
+    content: "A"
+}
+
+
+.fret-7 .string-5 .note {
+    visibility: visible;
+    background-color: var(--fifth-note);
+}
+
+.fret-7 .string-5 .note::before {
+    content: "E"
+}
+
+
+.fret-7 .string-6 .note {
+    visibility: visible;
+}
+
+.fret-7 .string-6 .note::before {
+    content: "B"
+}
+
+
+
+
+
+
+/* Fret 8 */
+.fret-8 .string-1 .note {
+    visibility: hidden;
+}
+
+.fret-8 .string-1 .note::before {
+    content: "C"
+}
+
+
+.fret-8 .string-2 .note {
+    visibility: hidden;
+}
+
+.fret-8 .string-2 .note::before {
+    content: "G"
+}
+
+
+.fret-8 .string-3 .note {
+    visibility: hidden;
+}
+
+.fret-8 .string-3 .note::before {
+    content: "D#"
+}
+
+
+.fret-8 .string-4 .note {
+    visibility: hidden;
+}
+
+.fret-8 .string-4 .note::before {
+    content: "A#"
+}
+
+
+.fret-8 .string-5 .note {
+    visibility: hidden;
+}
+
+.fret-8 .string-5 .note::before {
+    content: "F"
+}
+
+
+.fret-8 .string-6 .note {
+    visibility: hidden;
+}
+
+.fret-8 .string-6 .note::before {
+    content: "C"
+}
+
+
+
+
+
+
+/* Fret 9 */
+.fret-9 .string-1 .note {
+    visibility: visible;
+    background-color: var(--third-note);
+}
+
+.fret-9 .string-1 .note::before {
+    content: "C#"
+}
+
+
+.fret-9 .string-2 .note {
+    visibility: visible;
+}
+
+.fret-9 .string-2 .note::before {
+    content: "G#"
+}
+
+
+.fret-9 .string-3 .note {
+    visibility: visible;
+    background-color: var(--fifth-note);
+}
+
+.fret-9 .string-3 .note::before {
+    content: "E"
+}
+
+
+.fret-9 .string-4 .note {
+    visibility: visible;
+}
+
+.fret-9 .string-4 .note::before {
+    content: "B"
+}
+
+
+.fret-9 .string-5 .note {
+    visibility: visible;
+}
+
+.fret-9 .string-5 .note::before {
+    content: "F#"
+}
+
+
+.fret-9 .string-6 .note {
+    visibility: visible;
+    background-color: var(--third-note);
+}
+
+.fret-9 .string-6 .note::before {
+    content: "C#"
+}
+
+
+
+
+
+
+/* Fret 10 */
+.fret-10 .string-1 .note {
+    visibility: visible;
+}
+
+.fret-10 .string-1 .note::before {
+    content: "D"
+}
+
+
+.fret-10 .string-2 .note {
+    visibility: visible;
+    background-color: var(--root-note);
+}
+
+.fret-10 .string-2 .note::before {
+    content: "A"
+}
+
+
+.fret-10 .string-3 .note {
+    visibility: hidden;
+}
+
+.fret-10 .string-3 .note::before {
+    content: "F"
+}
+
+
+.fret-10 .string-4 .note {
+    visibility: hidden;
+}
+
+.fret-10 .string-4 .note::before {
+    content: "C"
+}
+
+
+.fret-10 .string-5 .note {
+    visibility: hidden;
+}
+
+.fret-10 .string-5 .note::before {
+    content: "G"
+}
+
+
+.fret-10 .string-6 .note {
+    visibility: visible;
+}
+
+.fret-10 .string-6 .note::before {
+    content: "D"
+}
+
+
+
+
+
+
+/* Fret 11 */
+.fret-11 .string-1 .note {
+    visibility: hidden;
+}
+
+.fret-11 .string-1 .note::before {
+    content: "D#"
+}
+
+
+.fret-11 .string-2 .note {
+    visibility: hidden;
+}
+
+.fret-11 .string-2 .note::before {
+    content: "A#"
+}
+
+
+.fret-11 .string-3 .note {
+    visibility: visible;
+}
+
+.fret-11 .string-3 .note::before {
+    content: "F#"
+}
+
+
+.fret-11 .string-4 .note {
+    visibility: visible;
+    background-color: var(--third-note);
+}
+
+.fret-11 .string-4 .note::before {
+    content: "C#"
+}
+
+
+.fret-11 .string-5 .note {
+    visibility: visible;
+}
+
+.fret-11 .string-5 .note::before {
+    content: "G#"
+}
+
+
+.fret-11 .string-6 .note {
+    visibility: hidden;
+}
+
+.fret-11 .string-6 .note::before {
+    content: "D#"
+}
+
+
+
+
+
+
+/* Fret 12 */
+.fret-12 .string-1 .note {
+    visibility: visible;
+    background-color: var(--fifth-note);
+}
+
+.fret-12 .string-1 .note::before {
+    content: "E"
+}
+
+
+.fret-12 .string-2 .note {
+    visibility: visible;
+}
+
+.fret-12 .string-2 .note::before {
+    content: "B"
+}
+
+
+.fret-12 .string-3 .note {
+    visibility: hidden;
+}
+
+.fret-12 .string-3 .note::before {
+    content: "G"
+}
+
+
+.fret-12 .string-4 .note {
+    visibility: visible;
+}
+
+.fret-12 .string-4 .note::before {
+    content: "D"
+}
+
+
+.fret-12 .string-5 .note {
+    visibility: visible;
+    background-color: var(--root-note);
+}
+
+.fret-12 .string-5 .note::before {
+    content: "A"
+}
+
+
+.fret-12 .string-6 .note {
+    visibility: visible;
+    background-color: var(--fifth-note);
+}
+
+.fret-12 .string-6 .note::before {
+    content: "E"
+}

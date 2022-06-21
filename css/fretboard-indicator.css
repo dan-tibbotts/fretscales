@@ -1,0 +1,105 @@
+
+* {
+    box-sizing: border-box;
+}
+
+/* Default CSS Styling for devices less than 576px */
+
+.fretboard-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    top: -1rem;
+
+    border: solid 1px var(--container-border);
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top: none;
+
+    padding: 0.1rem;
+    background-color: rgb(244, 244, 244);
+    text-align: center;
+    font-weight: bold;
+
+    margin-bottom: 1rem;
+
+}
+
+
+.fret-position{
+    display: flex;
+    justify-content: center;
+    min-width: 55px;
+}
+
+
+.fret-position-0 {
+    display: flex;
+    justify-content: center;
+    min-width: 2.3rem;
+}
+
+
+.fret-position-nut{
+    min-width: 10px;
+}
+
+
+/* Show fret position */
+.fret-position-1,.fret-position-2,.fret-position-3,.fret-position-4 {
+    display: flex;
+    width: 100%;
+}
+
+
+/* Hide fret position indicators due to screen size limitations  */
+.fret-position-5, .fret-position-6, .fret-position-7,
+.fret-position-8, .fret-position-9, .fret-position-10,
+.fret-position-11,.fret-position-12 {
+    display: none;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .fret-position-5, .fret-position-6,.fret-position-7 {
+        display: flex;
+        width: 100%;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    .fret-position-5, .fret-position-6,.fret-position-7,.fret-position-8,.fret-position-9,.fret-position-10 {
+        display: flex;
+        width: 100%;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .fret-position-5, .fret-position-6,.fret-position-7,.fret-position-8,.fret-position-9,.fret-position-10,.fret-position-11,.fret-position-12 {
+        display: flex;
+        width: 100%;
+    }
+
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+    .fret-position-5, .fret-position-6,.fret-position-7,.fret-position-8,.fret-position-9,.fret-position-10,.fret-position-11,.fret-position-12 {
+        display: flex;
+        width: 100%;
+    }
+
+}

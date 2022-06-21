@@ -1,0 +1,30 @@
+:root {
+
+    --open-fret-color: rgb(174, 174, 174);
+    --open-note: rgba(235, 157, 157, 0.906);
+
+    --nut-color: rgb(255, 255, 255);
+    --nut-border: rgb(80,80,80);
+
+
+    --fret-color: rgb(247, 240, 229);
+    --fret-border: rgb(80, 76, 76);
+
+    --fret-marker-color: rgb(254, 230, 208);
+
+    --note: rgb(238, 128, 128);
+    --note-color: rgb(238, 238, 238);
+    --note-border: rgba(205, 96, 96, 0.803);
+    --note-hover:  rgb(235, 89, 89);
+
+
+    --root-note: rgb(215, 68, 68);
+    --third-note: rgb(235, 156, 18);
+    --fifth-note: rgb(64, 155, 56);
+
+
+    --container-border: #ccc;
+
+    --shading: rgba(70, 70, 70, 0.70);
+
+}

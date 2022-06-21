@@ -1,0 +1,154 @@
+main {
+    border: solid 1px var(--container-border);
+    padding: 1rem;
+}
+
+/* Scale Heading  */
+.scale-heading {
+    padding: 0.5rem;
+    border: solid 1px #ccc;
+    border-radius: 0.5rem;
+}
+
+
+#control-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+
+    position: relative;
+    top: -1rem;
+
+    border: solid 1px #ccc;
+    border-radius: 0.5rem;
+}
+
+
+
+/* Scale Information  */
+.scale-information {
+    border: solid 1px var(--container-border);
+    border-radius: .5rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.scale-information p {
+    border: solid 1px var(--container-border);
+    border-radius: 0.5rem;
+    background-color: white;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.scale-information p:hover {
+    background-color: rgb(225, 225, 225);
+}
+
+.scale-info-heading {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+
+/* Help Page  */
+.help-container {
+    border: solid 1px #ccc;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding: 2rem;
+}
+
+.help-container h2 {
+    padding-top: 2rem;
+}
+
+.help-container h5 {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: solid 1px #ccc;
+}
+
+
+
+
+
+/* Privacy Page */
+.privacy-container {
+    border: solid 1px #ccc;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding: 4rem;
+}
+
+
+/* Contact Us Page */
+
+.contact-container {
+    border: solid 1px #ccc;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center; 
+}
+
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.contact-container form label{
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 0.1rem;
+}
+
+.contact-container form button{
+    margin-top: 1rem;
+}
+
+#validation-container {
+    color: red;
+}
+
+.input-required::after {
+    content: " *";
+    color: red;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .contact-container form {
+        width: 90%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .contact-container form {
+        width: 80%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .contact-container form {
+        width: 50%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .contact-container form {
+        width: 40%;
+    }
+}
